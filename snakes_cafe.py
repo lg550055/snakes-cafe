@@ -45,7 +45,7 @@ while True:
   if x == 'quit':
     break
   if x not in order:
-    print('Item not in menu')
+    print('Item not in menu. Please select and item from the menu')
   else:
     order[x] = order[x] +1
     print(f'** {order[x]} orders of {x} have been added to your meal **')
